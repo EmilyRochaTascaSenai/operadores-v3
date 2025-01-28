@@ -12,7 +12,7 @@ function somar(){
     let valor2 = parseFloat(document.getElementById(valor02).value)
     document.getElementById('resultado').style.display='flex'
 
-    const resultado = document.getElementById('resultado')
+    const resultado = document.getElementById('resultado');
     resultado.innerHTML =
     <ul>
                     <li>Operação: <span>SOMA</span> </li>
