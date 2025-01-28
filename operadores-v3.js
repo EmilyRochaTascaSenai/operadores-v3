@@ -134,7 +134,7 @@ function porcentagem(){
 }
 
 function calcPagVista(){
-    /// Armazenar os valores dos campos do formulário
+    // Armazenar os valores dos campos do formulário
     const verificaValor01 = document.getElementById('valor01').value;
     const verificaValor02 = document.getElementById('valor02').value;
 
@@ -163,9 +163,6 @@ if (verificaValor01 === '' || verificaValor02 === '') {
     `;
 }
 
-}
-function calcPagPrazo(){
-    
 }
 function limpar(){
     document.getElementById('resultado').style.display='none'
