@@ -9,25 +9,30 @@ function somar(){
    }
    else{
     let valor1 = parseFloat(document.getElementById('valor01').value)
-    let valor2 = parseFloat(document.getElementById(valor02).value)
+    let valor2 = parseFloat(document.getElementById('valor02').value)
     document.getElementById('resultado').style.display='flex'
 
     const resultado = document.getElementById('resultado');
     resultado.innerHTML =
-    <ul>
+    `<ul>
                     <li>Operação: <span>SOMA</span> </li>
                     <li>Valor 01 digitado pelo usuário: <span> ${valor1} </span> </li>
                     <li>Valor 02 digitado pelo usuário: <span>${valor2}</span> </li>       
                     <li>O resultado da operação é ${valor1} + ${valor2} = <span>${valor1 + valor2}</span> </li>
                 </ul> 
+    `
+    
 }
 }
 
+function subtrair(){
+    
+}
 
 
 function limpar(){
     document.getElementById('resultado').style.display='none'
     document.getElementById('valor01').value='';
-    document.getElementById('valor02') .value=''
+    document.getElementById('valor02') .value='';
 
 }
