@@ -16,9 +16,9 @@ function somar(){
     resultado.innerHTML =
     <ul>
                     <li>Operação: <span>SOMA</span> </li>
-                    <li>Valor 01 digitado pelo usuário: <span> ${v1} </span> </li>
-                    <li>Valor 02 digitado pelo usuário: <span>${v2}</span> </li>       
-                    <li>O resultado da operação é ${v1} + ${v2} = <span>${v1 + v2}</span> </li>
+                    <li>Valor 01 digitado pelo usuário: <span> ${valor1} </span> </li>
+                    <li>Valor 02 digitado pelo usuário: <span>${valor2}</span> </li>       
+                    <li>O resultado da operação é ${valor1} + ${valor2} = <span>${valor1 + valor2}</span> </li>
                 </ul> 
 }
 }
