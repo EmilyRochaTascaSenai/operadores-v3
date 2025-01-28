@@ -22,21 +22,21 @@
 
     width: 100%;
     height: 40%;
-    background-color: blueviolet;
+    background-color: rgb(213, 114, 167);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 4px solid rgb(0, 131, 238);
+    border: 4px solid rgb(206, 23, 199);
     border-radius: 4px;
     margin-bottom: 10px;
 }
 
 .container-btn button {
 
-    background-color: blueviolet;
+    background-color: rgb(232, 118, 156);
     color: white;
-    border: 2px solid #04AA6D;
+    border: 2px solid #aa0491;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -49,7 +49,7 @@
 
 .container-btn button:hover {
 
-    background-color: #04AA6D;
+    background-color: #ea85d8;
     color: white;
 }
 
@@ -82,7 +82,7 @@
 
 .container-formulario input {
 
-    color: blueviolet;
+    color: rgb(205, 60, 104);
     width: 180px;
     font-size: 16px;
     margin-bottom: 10px;
@@ -103,7 +103,7 @@
 
     width: 100%;
     height: 60%;
-    background-color: blueviolet;
+    background-color: rgb(205, 102, 174);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,7 @@
     font-size: 32px;
     font-family: Verdana;
     color: wheat;
-    border: 4px solid rgb(0, 131, 238);
+    border: 4px solid rgb(232, 118, 156);
     border-radius: 10px;
 
 }
@@ -130,7 +130,7 @@
 span {
 
     padding: 4px;
-    background-color: #04AA6D;
+    background-color: #ea85d8;
     color: white;
 }
 
