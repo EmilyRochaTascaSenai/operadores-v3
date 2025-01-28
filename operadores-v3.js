@@ -1,16 +1,33 @@
 function somar(){
-    //Conveter o valor inserido no formulario (prompt) em float (ponto flutuante)//
-    //Let funciona apenas no scopo da função//
-    let v1 = parseInt(prompt('Digite o Valor 01:'));
-    alert(`O Valor digitado é: ${v1}`);
+    //Armazenar o valor que o usuário irá digitar no campo do formulario
+    //Para validar se o campo não está em branco
+    const verificaValor01= document.getElementById('valor01').value;
+    const verificaValor02 = document.getElementById('valor02').value;
+    //Teste de verificação ===(compara tipo e )
+   if(verificaValor01===''||verificaValor02===''){
+    alert('Valor 01 ou Valor 02 branco,digite um numero')
+   }
+   else{
+    let valor1 = parseFloat(document.getElementById('valor01').value)
+    let valor2 = parseFloat(document.getElementById(valor02).value)
+    document.getElementById('resultado').style.display='flex'
 
-   let v2 = parseInt(prompt('Digite o Valor 02:'));
-   alert(`O Valor02 digitado é ${v2}`);
+    const resultado = document.getElementById('resultado')
+    resultado.innerHTML =
+    <ul>
+                    <li>Operação: <span>SOMA</span> </li>
+                    <li>Valor 01 digitado pelo usuário: <span> ${v1} </span> </li>
+                    <li>Valor 02 digitado pelo usuário: <span>${v2}</span> </li>       
+                    <li>O resultado da operação é ${v1} + ${v2} = <span>${v1 + v2}</span> </li>
+                </ul> 
+}
+}
 
-     // Exibir a div resultado.Quando o site carrega ela está com display: none;//
-     document.getElementById('resultado').style.display = 'flex';
 
-     // Escrever o resultado no documento HTML//
-    document.getElementById('resultado').innerHTML = `O resultado da soma é: ${v1 + v2}`;
+
+function limpar(){
+    document.getElementById('resultado').style.display='none'
+    document.getElementById('valor01').value='';
+    document.getElementById('valor02') .value=''
 
 }
